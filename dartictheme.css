@@ -1,5 +1,5 @@
 /* chat ... color focused */
 
 .colorDefault-2K3EoJ.focused-3afm-j{
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
 }
