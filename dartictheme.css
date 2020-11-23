@@ -1,5 +1,40 @@
+::selection {
+  background-color: var(--main-color);
+}
+
+/*  CHAT GRADIENT  pm*/
+#app-mount .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md {
+  background: var(--gradient);
+}
+/* chat gradient server */
+#app-mount .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n {
+  background: var(--gradient) !important;
+}
+/* HASHTAG server gradient chat */
+.modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90:hover .icon-1DeIlz, .modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz {
+  color: var(--text-muted);
+}
+
+
+.modeSelected-346R90:Hover .name-23GUGE, .modeConnected-3IsKId .name-23GUGE {
+  color: var(--main-color);
+}
+
 /* chat ... color focused */
 
 .colorDefault-2K3EoJ.focused-3afm-j{
   background-color: var(--main-color) !important;
+}
+
+/* User settings button rotate on hover*/
+button.button-14-BFJ:nth-child(3){
+    
+  transform:rotate(0deg);
+  transition:transform 0.75s, background-color 1.25s;
+  cubic-bezier(0.71,-0.54, 0.29, 1.49);
+}
+button.button-14-BFJ:nth-child(3):hover{
+  
+  transform:rotate(360deg);
+  
 }
