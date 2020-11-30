@@ -54,7 +54,7 @@ button.button-14-BFJ:nth-child(3):hover{
 
 /*Mentions colour*/
 .mention {
-  color: var(--quaternary-color);
+  color: var(--quaternary-color) !important;
   background: #424242;
 }
 
