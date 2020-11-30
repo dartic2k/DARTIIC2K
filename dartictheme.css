@@ -5,7 +5,7 @@
     --tertiary-color: whitesmoke;
     --quaternary-color: white;
     --details: #eb4034;
-    
+}
 
 ::selection {
   background-color: var(--main-color);
