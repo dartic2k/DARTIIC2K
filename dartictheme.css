@@ -836,6 +836,7 @@ button.button-14-BFJ:nth-child(3):hover{
         display: none;
     }
 
+/* Badges everywhere role chat */
 .roleStyle-jQ7KI2 {
   border-radius: 5%;
 }
@@ -843,4 +844,8 @@ button.button-14-BFJ:nth-child(3):hover{
 
 .roleCircle-3xAZ1j {
   border-radius: 30%;
+}
+
+.theme-dark .roleStyle-jQ7KI2 {
+  background: #3a3a3a;
 }
