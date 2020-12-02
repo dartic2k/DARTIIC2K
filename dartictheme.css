@@ -858,3 +858,8 @@
   opacity: 0.3;
   z-index: -1;
 }
+
+/* Servers chat green arrow */
+.icon-2yIBmh {
+  color: var(--main-color);
+}
