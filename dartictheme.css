@@ -35,19 +35,6 @@
   background-color: var(--main-color) !important;
 }
 
-/* User settings button rotate on hover*/
-button.button-14-BFJ:nth-child(3){
-    
-  transform:rotate(0deg);
-  transition:transform 0.75s, background-color 1.25s;
-  cubic-bezier(0.71,-0.54, 0.29, 1.49);
-}
-button.button-14-BFJ:nth-child(3):hover{
-  
-  transform:rotate(360deg);
-  
-}
-
 /*Text Color*/
 
 .markup-2BOw-j{
