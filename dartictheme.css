@@ -854,3 +854,19 @@
 .icon-2yIBmh {
   color: var(--main-color);
 }
+
+/* SETTINGS THEMES & PLUGINS TAB */
+#app-mount .bd-addon-list .bd-addon-card {
+  background-color: transparent !important;
+}
+
+/* buttons in the plugins & themes tab */
+.bd-switch{
+  background-color: var(--text-muted);
+}
+
+
+/* PM's users list color */
+.container-2Pjhx- {
+  color: rgb(200, 200, 200);
+}
