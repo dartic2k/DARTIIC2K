@@ -23,7 +23,7 @@
 /* chat ... color focused */
 
 .colorDefault-2K3EoJ.focused-3afm-j{
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color) !imporabletant;
 }
 
 /*Text Color*/
@@ -282,7 +282,7 @@
     -ms-flex: 1 1 auto;
     -webkit-box-flex: 1;
     flex: 1 1 auto;
-    max-width: 100%;
+    max-width: 100%;F
     min-height: 100%;
     min-width: 460px;
   }
@@ -804,12 +804,6 @@
         color: #ff1100;
     }
 
-    .scrollableContainer-2NUZem {
-        background: linear-gradient(to bottom, rgba(102, 102, 102, 0) 0%, rgba(0, 0, 0, 0.25) 100%);
-        border-radius: 8px;
-    }
-
-
     .protip-YaFfgO {
         display: none;
     }
@@ -876,6 +870,12 @@
   max-width: none !important;
 }
 
+/* write message */
+.scrollableContainer-2NUZem {
+  background: linear-gradient(to top, rgb(54, 54, 54) 0%, rgb(0, 0, 0));
+  border-radius: 8px;
+}
+
 .channelTextArea-rNsIhG {
-  box-shadow: 0px 0px 1px 1px var(--secondary-color);
+  box-shadow: 0px 0px 1px 1px var(--text-muted);
 }
