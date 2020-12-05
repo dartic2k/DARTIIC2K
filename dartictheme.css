@@ -883,8 +883,8 @@
 /* Mentions,profile popups and embeds are now more rounded */
 
 .embedFull-2tM8-- {
-  border-radius: 1em;
-  border: 4px solid var(--background-tertiary);
+  border-radius: 0.5em;
+  border: 1px solid var(--background-tertiary);
 }
 .markup-2BOw-j code {
   border-radius: 0.5em;
