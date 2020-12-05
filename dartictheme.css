@@ -894,7 +894,7 @@
 }
 .mentioned-xhSam7 {
   border-radius: 0.5em;
-  box-shadow: inset 0px -1px 2px 0px #bd8f42;
+  box-shadow: inset 0px -1px 2px 0px #3d3d3d;
 }
 .userPopout-3XzG_A {
   border-radius: 0.5em;
@@ -905,3 +905,6 @@
 .menu-3sdvDG {
   border-radius: 0.5em;
 }
+
+.sidebar-2K8pFh.hideElement .container-3baos1 {
+  background-color: var(--background-image);
