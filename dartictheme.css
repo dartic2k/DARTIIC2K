@@ -917,9 +917,41 @@
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+
+/* New message on chat */
+
+.newMessagesBar-265mhP {
   background-color: var(--main-color);
+  border-radius: 0 0 6.5px 6.5px;
+}
+
+
+.unread-2lAfLh {
+  height: 18px;
+  width: 3px;
+  top: 35%;
+  background-color: var(--main-color);
+}
+
+
+.modeUnread-1qO3K1 .name-23GUGE {
+color: var(--main-color);
+}
+
+.modeUnread-1qO3K1 .icon-1DeIlz{
+  color: var(--main-color);
+}
+
+
+
+.modeMuted-onO3r-:hover .name-23GUGE, .wrapper-2jXpOf:hover .name-23GUGE {
   color: var(--secondary-color);
 }
 
-	
-	
+.wrapper-2jXpOf:hover .content-1x5b-n {
+  background-image: linear-gradient(90deg, transparent, rgba(102, 102, 102, 0.541), transparent);
+}
