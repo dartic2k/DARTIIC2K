@@ -908,3 +908,18 @@
 
 .sidebar-2K8pFh.hideElement .container-3baos1 {
   background-color: var(--background-image);
+}
+
+/* RMB actions color */
+.colorDefault-2K3EoJ {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+	
+	
