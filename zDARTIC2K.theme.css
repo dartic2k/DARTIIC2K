@@ -116,6 +116,13 @@
   --settings-logout: #f04747;
   /* FONT */
   --font: 'Nunito';
+	/* BetterCodeBlocks */
+  --syntax-blue: #79b8ff;
+   --syntax-purple: #b392f0;
+   --syntax-grey: #959da5;
+   --syntax-grey-alt: #d1d5da;
+   --syntax-orange: #ffab70;
+   --syntax-green: #56b6c2;
 }
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
