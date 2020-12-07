@@ -955,3 +955,10 @@ color: var(--main-color);
 .wrapper-2jXpOf:hover .content-1x5b-n {
   background-image: linear-gradient(90deg, transparent, rgba(102, 102, 102, 0.541), transparent);
 }
+
+
+/* color when click */
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: var(--main-color);
+    color: #fff;
+}
