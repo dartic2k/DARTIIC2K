@@ -9,7 +9,7 @@
 
 :root {
     /* Edit this to change your background */
-    --background-image: url(https://i.imgur.com/87J3wRP.png); /* format is url(IMAGE URL HERE) */
+    --background-image: #616161; /* format is url(IMAGE HERE) */
     /* Edit this to change your friends icon picture, picture  */
     --friends-icon: url(https://media.discordapp.net/attachments/420346044640002058/767003540723335198/better-removebg-preview.png); /* format is url(IMAGE URL HERE) */
     /* Profile POPUP Background */
