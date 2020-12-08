@@ -906,9 +906,6 @@
   border-radius: 0.5em;
 }
 
-.sidebar-2K8pFh.hideElement .container-3baos1 {
-  background-color: var(--background-image);
-}
 
 /* RMB actions color */
 .colorDefault-2K3EoJ {
@@ -1328,4 +1325,8 @@ color: var(--main-color);
 .markup-2BOw-j pre code .hljs-comment,
 .markup-2BOw-j pre code .hljs-quote {
   color: var(--syntax-grey);
+}
+/* HideChannels Plugin fix */
+.sidebar-2K8pFh.hideElement .container-3baos1 {
+  background-color: transparent !important;
 }
