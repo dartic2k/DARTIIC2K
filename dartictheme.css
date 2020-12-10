@@ -1330,3 +1330,10 @@ color: var(--main-color);
 .sidebar-2K8pFh.hideElement .container-3baos1 {
   background-color: transparent !important;
 }
+
+
+/* online friends tab, when none is playing */
+
+.emptyCard-1RJw8n {
+  background-color: #3333339c;
+}
