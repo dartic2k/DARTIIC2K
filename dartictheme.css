@@ -1359,3 +1359,18 @@ color: var(--main-color);
 }
 
 
+/* settings btn */
+.bd-switch {
+  background-color: rgba(208, 208, 208, 0.30);
+  border-radius: 8px;
+}
+
+.sizeMini-1ii40f,
+.bd-switch::after {
+  border-radius: 6px;
+}
+
+.bd-switch-checked {
+  background: var(--main-color);
+}
+
