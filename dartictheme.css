@@ -909,7 +909,7 @@
 
 /* RMB actions color */
 .colorDefault-2K3EoJ {
-  color: var(--main-color);
+  color: var(--secondary-color);
   border-color: var(--main-color);
 }
 
@@ -1337,3 +1337,25 @@ color: var(--main-color);
 .emptyCard-1RJw8n {
   background-color: #3333339c;
 }
+
+
+/* no clue */
+
+.modalHeader-19eoYJ {
+  padding-bottom: none;
+}
+
+.notDetected-33MY4s, .addGamePopout-2RY8Ju {
+  background-color: var(--dark) !important;
+}
+
+.css-gvi9bl-control, .css-gvi9bl-control:hover {
+  border-color: var(--main-color);
+}
+
+/* profile add note margin reduced to a compact style */
+.note-QfFU8y {
+  margin-bottom: -20px !important;
+}
+
+
