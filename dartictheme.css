@@ -914,8 +914,8 @@
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j {
-  background-color: var(--secondary-color);
-  color: var(--main-color);
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 
