@@ -124,6 +124,12 @@
    --syntax-grey-alt: #d1d5da;
    --syntax-orange: #ffab70;
    --syntax-green: #56b6c2;
+	
+	/* Server alignment */
+	--vcolumns: var(--columns, 2);
+	--vguildsize: var(--guildsize, 44);
+	--vguildgap: var(--guildgap, 3);
+	--valigndms: var(--aligndms, 0);
 }
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
