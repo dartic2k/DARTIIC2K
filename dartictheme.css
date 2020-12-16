@@ -1586,3 +1586,12 @@ html .typingindicator-folder {
 	top: calc(var(--vguildsize) * 1px - 5px) !important;
   bottom: unset !important;
 }
+
+
+
+
+/* TOOLTIPS disable*/
+
+.tooltip-2QfLtc { 
+  display: none;
+}
