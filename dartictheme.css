@@ -1599,7 +1599,12 @@ html .typingindicator-folder {
 
 /* Links I guess (dont remember anymore tbh) */
 
-
 .metadata-3WGS0M {
+  color: var(--secondary-color);
+}
+
+.filenameLinkWrapper-1-14c5{
   color: var(--main-color);
 }
+
+
