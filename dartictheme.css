@@ -1608,3 +1608,7 @@ html .typingindicator-folder {
 }
 
 
+/* JUMP Button on the pins panel is now fixed */
+.messagesPopoutWrap-1MQ1bW {
+  width: 450px !important;
+}
