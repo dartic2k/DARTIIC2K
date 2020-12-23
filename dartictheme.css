@@ -1607,3 +1607,15 @@ html .typingindicator-folder {
 .grid-1nZz7S {
 display: block;
 }
+
+/* Add roles member list */
+
+.cardPrimary-1Hv-to {
+  background-color: var(--main-transparency) !important;
+}
+
+
+#app-mount .card-FDVird:before {
+  background-color: var(--main-color);
+}
+
