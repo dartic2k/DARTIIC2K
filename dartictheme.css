@@ -1619,3 +1619,20 @@ display: block;
   background-color: var(--main-color);
 }
 
+
+/* Owner tag dark colors fix, and so the user name color*/
+.roleColor-rz2vM0[style^="color: rgb(8, 8, 8)"] {
+    color: white !important;
+}
+
+.px-10SIf7.botTag-2WPJ74[style^="background-color: rgb(8, 8,8)"] {
+  background-color: white !important;
+  color: black;
+}
+
+.px-10SIf7.botTag-2WPJ74[style^="background-color: rgb(8, 8, 8)"] {
+  background-color: white !important;
+  color: black;
+}
+
+
