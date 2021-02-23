@@ -1635,4 +1635,7 @@ display: block;
   color: black;
 }
 
-
+/* RMB action when in a screenshare */
+.colorDefault-2K3EoJ {
+ color: var(--text-default) !important;
+}
