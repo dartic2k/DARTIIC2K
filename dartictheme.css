@@ -1639,3 +1639,22 @@ display: block;
 .colorDefault-2K3EoJ {
  color: var(--text-default) !important;
 }
+
+
+
+/* Don't remember anymore, but just more color fixes*/
+.colorDefault-2K3EoJ {
+ color: var(--text-default) !important;
+}
+
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover{
+  background-color: grey;
+}
+
+.cardPrimaryEditable-3KtE4g{
+  background-color: var(--dark) !important;
+}
+
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .authedApp-mj2Hmd, .wrapper-3UweLa, .descriptionBox-1EKQKL {
+  background-color: var(--dark) !important;
+}
