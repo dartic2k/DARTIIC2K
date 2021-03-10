@@ -1665,3 +1665,23 @@ display: block;
   background-color: var(--main-color) !important;
 }
 
+
+
+
+
+.checked-3_4uQ9 {
+  background-color: inherit !important;
+}
+
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9[style^="width: 20px;height: 20px;border-color: rgb(114, 137, 218);background-color: rgb(114, 137, 218);"]{
+background-color: var(--main-color) !important;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--main-color);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--tertiary-color);
+  color: var(--main-color);
+}
