@@ -1658,3 +1658,10 @@ display: block;
 .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .authedApp-mj2Hmd, .wrapper-3UweLa, .descriptionBox-1EKQKL {
   background-color: var(--dark) !important;
 }
+
+
+
+.item-3HknzM.item-PXvHYJ[style^="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"] {
+  background-color: var(--main-color) !important;
+}
+
