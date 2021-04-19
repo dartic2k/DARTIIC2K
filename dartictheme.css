@@ -1671,3 +1671,18 @@ background-color: var(--main-color) !important;
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
   background-color: var(--dark) !important;
 }
+
+
+
+
+/* Accept ignore buttons on profile*/
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+  color: var(--main-color);
+  background-color: var(--secondary-color;
+}
