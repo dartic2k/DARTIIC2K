@@ -1686,3 +1686,51 @@ background-color: var(--main-color) !important;
   color: var(--main-color);
   background-color: var(--secondary-color;
 }
+
+
+
+
+/*New server modal*/
+
+.theme-light {
+  --background-primary: rgb(0, 0, 0);
+  --header-primary: var(--main-color);
+  border: 2.5px solid var(--dark);
+  border-radius: 8px;
+}
+.theme-light .footer-2gL1pp {
+  background-color: var(--background-primary);
+  -webkit-box-shadow: none;
+}
+.colorHeaderSecondary-3Sp3Ft{
+  color: var(--text-default);
+}
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: var(--main-color);
+  color: var(--text-default);
+  font-size:medium;
+}
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover{
+  background-color: var(--dark);
+  color: var(--main-color);
+}
+.colorStandard-2KCXvj.size20-17Iy80.footerTitle-2CYZch{
+  color: var(--tertiary-color);
+  font-size: 17.5px;
+  font-weight: bold;
+}
+.header-3msK0M {
+  overflow: hidden;
+}
+.theme-light .root-1gCeng {
+  background-color: #000000;
+}
+.theme-light{
+  --text-normal: #ffffff;
+}
+.container-UC8Ug1:hover {
+  background-color: var(--dark);
+}
+.container-UC8Ug1{
+  background-color: #141414;
+}
