@@ -1,10 +1,14 @@
-//META{"name":"DARTIIC2K#8228 Discord background","description":"DARTIIC2K#8228 is probably drifting at the moment","author":"DARTIIC2K","version":"4.2"}*//{}
+/**
+* @name DARTIIC2K
+* @author DARTIIC2K
+* @description minimalist theme, easy to modify
+* @version 5.0
+*/
 @import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/scsl.css);
 @import url("https://mulverinex.github.io/legacy-settings-icons/dist-native.css");
-@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 @import url(https://raw.githack.com/dartic2k/DARTIIC2K/main/dartictheme.css);
-
 
 
 
@@ -47,17 +51,19 @@
   /* chat title color */
     --chat-title: #ffffff;
 
-    /* User Status circle */
-    --rs-small-spacing: 2px;  /* spacing between avatar and status */
-  --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles */
+    /*Radial status mini theme  Credits - https://betterdiscordlibrary.com/users/Gibbu*/
+    --rs-small-spacing: 2px;  /* Spacing between avatar and status | MUST end in px */
+  --rs-large-spacing: 3px;  /* Spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
   --rs-width: 2px;  /* Width/thickness of status border */
   --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
-  --rs-online-color: #43b581;  /* color for online status */
-  --rs-idle-color: #faa61a;  /* color for idle status */
-  --rs-dnd-color: #f04747;  /* color for dnd status */
-  --rs-offline-color: #636b75;  /* color for offline status */
-  --rs-streaming-color: #643da7;  /* color for streaming status */
-  --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+  --rs-online-color: #43b581;  /* Colour for online status */
+  --rs-idle-color: #faa61a;  /* Colour for idle status */
+  --rs-dnd-color: #f04747;  /* Colour for dnd status */
+  --rs-offline-color: #636b75;  /* Colour for offline status */
+  --rs-streaming-color: #643da7;  /* Colour for streaming status */
+  --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
     /*Acent Color */
     
     --hover-color: #ffffff; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
