@@ -1753,3 +1753,12 @@ background-color: var(--main-color) !important;
 .container-lRFx4q{
   background: none;
 }
+
+
+
+
+/* Removes the new ugly mention color */ 
+
+.theme-dark .wrapper-3WhCwL {
+  background: var(--mention);
+}
