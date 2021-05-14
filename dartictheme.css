@@ -1763,3 +1763,12 @@ background-color: var(--main-color) !important;
 .theme-dark .wrapper-3WhCwL {
   background: var(--mention);
 }
+
+
+/* Plugin BetterFriendsList color change */
+
+.badge-1Skb69, .numberBadge-2s8kKX, .base-PmTxvP, .baseShapeRound-1Mm1YW{
+  background-color: var(--details) !important;
+}
+
+
