@@ -437,12 +437,6 @@
     background-color: var(--quaternary-color) !important;
   }
   
-  .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-  #pubslayer button:hover {
-    background-color: var(--hover-color) !important;
-    color: var(--main-color);
-  }
-  
   .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
   .checked-3_4uQ9 {
     background-color: var(--main-color) !important;
@@ -1772,3 +1766,373 @@ background-color: var(--main-color) !important;
 }
 
 
+
+/* CONNECTIONS */
+.connection-1fbD7X,
+.connectionHeader-2MDqhu {
+  background: transparent;
+}
+
+.connectionIcon-2ElzVe + div:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px 8px 0 0;
+  pointer-events: none;
+  z-index: -1;
+}
+.connectionIcon-2ElzVe + div:after {
+  content: "";
+  position: absolute;
+  top: 72px;
+  right: 0;
+  bottom: -64px;
+  left: 0;
+  border-radius: 0 0 8px 8px;
+  pointer-events: none;
+  z-index: -1;
+}
+.connectionIcon-2ElzVe[alt*=Twitch] + div:before {
+  background-color: rgba(89, 54, 149, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Twitch] + div:after {
+  background-color: rgba(89, 54, 149, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Youtube] + div:before {
+  background-color: rgba(229, 21, 26, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Youtube] + div:after {
+  background-color: rgba(229, 21, 26, 0.5);
+}
+.connectionIcon-2ElzVe[alt*="Battle.net"] + div:before {
+  background-color: rgba(5, 102, 176, 0.6);
+}
+.connectionIcon-2ElzVe[alt*="Battle.net"] + div:after {
+  background-color: rgba(5, 102, 176, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Steam] + div:before {
+  background-color: rgba(33, 33, 33, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Steam] + div:after {
+  background-color: rgba(33, 33, 33, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Reddit] + div:before {
+  background-color: rgba(255, 89, 0, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Reddit] + div:after {
+  background-color: rgba(255, 89, 0, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Facebook] + div:before {
+  background-color: rgba(53, 80, 137, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Facebook] + div:after {
+  background-color: rgba(53, 80, 137, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Twitter] + div:before {
+  background-color: rgba(51, 174, 250, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Twitter] + div:after {
+  background-color: rgba(51, 174, 250, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Spotify] + div:before {
+  background-color: rgba(29, 185, 84, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Spotify] + div:after {
+  background-color: rgba(29, 185, 84, 0.5);
+}
+.connectionIcon-2ElzVe[alt*="Xbox Live"] + div:before {
+  background-color: rgba(16, 124, 16, 0.6);
+}
+.connectionIcon-2ElzVe[alt*="Xbox Live"] + div:after {
+  background-color: rgba(16, 124, 16, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Github] + div:before {
+  background-color: rgba(51, 51, 51, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Github] + div:after {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Facebook] + div:after, .connectionIcon-2ElzVe[alt*=Spotify] + div:after, .connectionIcon-2ElzVe[alt*="Xbox Live"] + div:after {
+  bottom: -108px;
+}
+
+.connectionAccountLabel-1DiK0A {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.connectionDelete-2Odoln {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.integrationsWrapper-VkM_zO {
+  background-color: #593695;
+  border-radius: 0 0 8px 8px;
+}
+
+.integration-3kMeY4 {
+  background-color: #593695;
+}
+
+/* SETTINGS SIDEBAR ICONS */
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ {
+  padding-left: 50px !important;
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 15px;
+  margin-top: -2px;
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=My-Account-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/person.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy-&-Safety-tab"].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/security.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Authorized-Apps-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Connections-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/link.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Discord-Nitro-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Nitro-Server-Boost-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Library-Inventory-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Billing-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/payment.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Appearance-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Accessibility-tab].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/XP9.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice-&-Video-tab"].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text-&-Images-tab"].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Notifications-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/notifications.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Keybinds-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/keyboard.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Language-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/language.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Windows-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/windows.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Linux-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/linux.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Streamer-Mode-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Advanced-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Game-Activity-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/games.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Overlay-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/aspect_ratio.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/history.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Hypesquad-Online-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
+  background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
+}
+
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Settings-tab].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/XQg.svg);
+}
+
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=customcss-tab].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/XQL.svg);
+}
+
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=plugins-tab].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/XPc.svg);
+}
+
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=themes-tab].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/XPU.svg);
+}
+
+.avatarUploaderInner-3UNxY3 {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+  background-color: var(--main-color);
+  background-image: none;
+}
+.theme-dark .avatarUploaderIndicator-2G-aIZ:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(https://discord.com/assets/d5c25e76af04cea8997e4a060572feae.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  filter: brightness(0) invert(1);
+  pointer-events: none;
+}
+
+.theme-dark .card-FDVird:before {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: rgba(255, 255, 255, 0.07);
+}
+.theme-dark .button-2CgfFz {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: rgba(255, 255, 255, 0.07);
+}
+.theme-dark .button-2CgfFz:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: rgba(255, 255, 255, 0.07);
+}
+.theme-dark .card-3Qj_Yx {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.07);
+}
+.theme-dark .card-3Qj_Yx a {
+  color: var(--url-color);
+}
+
+.pulse-3KGsIm {
+  -webkit-animation: none;
+          animation: none;
+}
+
+[style*=transform].app-2rEoOp {
+  transform: none !important;
+}
+[style*=transform].app-2rEoOp .bg-h5JY_x {
+  -webkit-animation: cv-shake 0.5s ease-in;
+          animation: cv-shake 0.5s ease-in;
+}
+
+/* BETTERDISCORD SETTINGS SIDEBAR */
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  font-weight: 700;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-header:before {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background: linear-gradient(to left, var(--main-color) 50%, transparent);
+  margin-right: 5px;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-header:after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background: linear-gradient(to right, var(--main-color) 50%, transparent);
+  margin-left: 5px;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item {
+  color: rgba(255, 255, 255, 0.3);
+  padding: 8px 0 8px 20px;
+  margin: 0;
+  transition: all 0.15s ease-in-out, background-size 0.3s ease-in-out;
+  cursor: pointer;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:before {
+  opacity: 0.3;
+  transition: all 0.15s ease-in-out;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+  pointer-events: none;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:hover {
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.7);
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:hover:before {
+  opacity: 0.7;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item.selected {
+  background: transparent;
+  color: #fff;
+  transition: all 0.15s ease-in-out, background 0.3s 0.2s;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item.selected:before {
+  opacity: 1;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item.selected:after {
+  right: 0;
+  background: var(--main-color);
+  -webkit-animation: cv-channel-select 0.3s ease-in-out;
+          animation: cv-channel-select 0.3s ease-in-out;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-separator {
+  background: rgba(255, 255, 255, 0.07);
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-separator:first-child {
+  display: none;
+}
+.side-8zPYf6 #bd-settings-sidebar div[style] {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.side-8zPYf6 #bd-settings-sidebar a {
+  color: var(--main-color);
+  transition: all 0.1s ease-in-out;
+}
+.side-8zPYf6 #bd-settings-sidebar a:hover {
+  text-shadow: 0 0 1px;
+  text-decoration: none !important;
+}
+
+
+
+.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp {
+  background-color: #1a1a1a;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+  #button:hover {
+    background-color: #252525 !important;
+    color: var(--main-color);
+  }
+
+  .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    color: var(--main-color);
+  }
+
+  .defaultColor-1_ajX0 {
+    color: var(--details);
+  }
