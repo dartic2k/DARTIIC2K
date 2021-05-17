@@ -1964,6 +1964,9 @@ background-color: var(--main-color) !important;
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Settings-tab].item-PXvHYJ:before {
   background-image: url(https://svgshare.com/i/XQg.svg);
 }
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Emotes-tab].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/XPX.svg);
+}
 
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=customcss-tab].item-PXvHYJ:before {
   background-image: url(https://svgshare.com/i/XQL.svg);
