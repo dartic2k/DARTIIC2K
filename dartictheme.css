@@ -1888,25 +1888,25 @@ background-color: var(--main-color) !important;
   left: 15px;
   margin-top: -2px;
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=My-Account-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="My Account-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/person.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy-&-Safety-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy & Safety-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/security.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Authorized-Apps-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Authorized Apps-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Connections-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/link.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Discord-Nitro-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Discord Nitro-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Nitro-Server-Boost-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Nitro Server Boost-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Library-Inventory-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Library Inventory-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Billing-tab].item-PXvHYJ:before {
@@ -1918,10 +1918,10 @@ background-color: var(--main-color) !important;
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Accessibility-tab].item-PXvHYJ:before {
   background-image: url(https://svgshare.com/i/XP9.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice-&-Video-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice & Video-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text-&-Images-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text & Images-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Notifications-tab].item-PXvHYJ:before {
@@ -1939,13 +1939,13 @@ background-color: var(--main-color) !important;
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Linux-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/linux.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Streamer-Mode-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Streamer Mode-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Advanced-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Game-Activity-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Game Activity-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/games.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Overlay-tab].item-PXvHYJ:before {
@@ -1954,7 +1954,7 @@ background-color: var(--main-color) !important;
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/history.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Hypesquad-Online-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Hypesquad Online-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
