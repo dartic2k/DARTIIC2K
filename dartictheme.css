@@ -2139,3 +2139,31 @@ background-color: var(--main-color) !important;
 .defaultColor-1_ajX0 {
     color: var(--main-color);
   }
+
+
+
+
+
+/* Stage Discovery */
+
+.theme-dark .container-1r6BKw, .stageSection-3mAD8V,.nowPlayingSidebar-2OFn0o {
+  background-color: var(--main-transparency);
+}
+
+.scroller-2ZPeAD {
+  border: none;
+}
+
+.theme-dark .container-S9SaVf, .emptyCard-1RJw8n {
+  background-color: black;
+  border: 0.5px solid var(--main-color);
+}
+
+.pageHeader-3nuK1W {
+  color: #1db954;
+}
+
+.theme-dark .container-S9SaVf:hover {
+  background-color: var(--dark);
+  border: 0.5px solid var(--tertiary-color);
+}
