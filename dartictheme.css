@@ -2145,6 +2145,9 @@ background-color: var(--main-color) !important;
 
 
 /* Stage Discovery */
+.base-1x0h_U {
+  color: var(--main-color);
+}
 
 .theme-dark .container-1r6BKw, .stageSection-3mAD8V,.nowPlayingSidebar-2OFn0o {
   background-color: var(--main-transparency);
