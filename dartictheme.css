@@ -2170,3 +2170,9 @@ background-color: var(--main-color) !important;
   background-color: var(--dark);
   border: 0.5px solid var(--tertiary-color);
 }
+
+
+/* settings discord nitro pink icon removed */
+.icon-Zc-uZZ {
+  display: none;
+}
