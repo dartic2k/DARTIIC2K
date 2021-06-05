@@ -2200,9 +2200,6 @@ background-color: var(--main-color) !important;
 .headerNormal-1l1Znk, .theme-dark .body-3iLsc4, .footer-1fjuF6, .aboutMeSection---MkQa {
   background-color: black !important;
 } 
-.avatar-22FtUu {
-  border: none;
-}
 
 /* Settings social links */
 .socialLinks-3jqNFy {
@@ -2221,4 +2218,73 @@ background-color: var(--main-color) !important;
   color: var(--main-color);
   background-color: rgb(22, 22, 22);
   border: var(--main-color) 1px solid;
+}
+
+
+
+
+
+.header-QKLPzZ {
+  background-color: rgb(22, 22, 22);
+  border-bottom: 1.5px solid var(--main-color);
+}
+.activity-1ythUs, .infoScroller-3EYYns, .listScroller-2_vlfo, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .tabBarContainer-1s1u-z {
+  background-color: rgb(22, 22, 22);
+}
+
+.size12-3cLvbJ.activityHeader-1PExlk {
+  color: var(--main-color);
+}
+
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+  border-color: var(--dark);
+}
+
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+  border-top-color: transparent;
+}
+
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover {
+  border-bottom-color: var(--main-color);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+  background-color: #252525 !important;
+  color: var(--main-color);
+}
+
+.minorAction-OVxOke:hover {
+  color: white;
+  opacity: 10;
+}
+
+strong{
+  color: white;
+  cursor: auto;
+  -webkit-user-select: text;
+  -moz-select: text;
+  -ms-select: text;
+  user-select: text;
+}
+
+
+.colorStandard-2KCXvj.size14-e6ZScH.h2-2gWE-o.title-3sZWYQ.defaultColor-1_ajX0.title-18-Ds0.marginBottom20-32qID7.marginTop8-1DLZ1n {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.colorStandard-2KCXvj.size14-e6ZScH.h2-2gWE-o.title-3sZWYQ.defaultColor-1_ajX0.title-18-Ds0.marginBottom20-32qID7.marginTop8-1DLZ1n::after {
+  content:""; 
+  float:left; 
+  background:green; 
+  width:22%; 
+  height:2px; 
+  border-radius: 3px;
+  position: absolute;
+  left: 172.5px;
+  top: 50px;
+}
+
+.backdrop-1wrmKB {
+  background: rgba(0, 0, 0, 0.900) !important;
 }
