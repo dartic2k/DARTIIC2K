@@ -2189,12 +2189,12 @@ background-color: var(--main-color) !important;
 .headerTop-2cWpdB {
   background-color: transparent;
 }
-
-.input-2_SIlA {
-  background-color: var(--dark);
-  border: var(--main-color) 1px solid;
+.activity-fViXj7, .headerTop-2cWpdB {
+  border: none;
 }
-
+.input-2_SIlA:focus, .input-2_SIlA:hover {
+  border: var(--main-color) 1px solid !important;
+}
 
 
 .headerNormal-1l1Znk, .theme-dark .body-3iLsc4, .footer-1fjuF6, .aboutMeSection---MkQa {
