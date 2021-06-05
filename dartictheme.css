@@ -2181,3 +2181,44 @@ background-color: var(--main-color) !important;
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyBetween-2tTqYu.alignCenter-1dQNNs.noWrap-3jynv6 {
   color: #B9BBBE;
 }
+
+
+
+/* Profile modal */
+
+.headerTop-2cWpdB {
+  background-color: transparent;
+}
+
+.input-2_SIlA {
+  background-color: var(--dark);
+  border: var(--main-color) 1px solid;
+}
+
+
+
+.headerNormal-1l1Znk, .theme-dark .body-3iLsc4, .footer-1fjuF6, .aboutMeSection---MkQa {
+  background-color: black !important;
+} 
+.avatar-22FtUu {
+  border: none;
+}
+
+/* Settings social links */
+.socialLinks-3jqNFy {
+  display: none;
+}
+
+/* Emoji tab */
+.navButtonActive-1MkytQ {
+  color: var(--main-color);
+  background-color: var(--dark);
+  border: var(--main-color) 1px solid;
+}
+
+/* profile modal game activity button */
+.theme-dark .newPopoutActivityStyles button, .theme-light .newPopoutActivityStyles button {
+  color: var(--main-color);
+  background-color: rgb(22, 22, 22);
+  border: var(--main-color) 1px solid;
+}
