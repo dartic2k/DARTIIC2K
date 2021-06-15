@@ -2264,18 +2264,6 @@ strong{
   color: var(--main-color);
 }
 
-.colorStandard-2KCXvj.size14-e6ZScH.h2-2gWE-o.title-3sZWYQ.defaultColor-1_ajX0.title-18-Ds0.marginBottom20-32qID7.marginTop8-1DLZ1n::after {
-  content:""; 
-  float:left; 
-  background:green; 
-  width:22%; 
-  height:2px; 
-  border-radius: 3px;
-  position: absolute;
-  left: 172px;
-  top: 50px;
-}
-
 .backdrop-1wrmKB {
   background: rgba(0, 0, 0, 0.900) !important;
 }
@@ -2389,3 +2377,15 @@ color: var(--main-color);
 border: 1px solid var(--main-color);
 }
 
+/* trust link button */
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: rgb(22, 22, 22) !important;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+  background-color: rgb(22, 22, 22) !important;
+  color: whitesmoke;
+}
