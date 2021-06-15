@@ -2225,7 +2225,6 @@ background-color: var(--main-color) !important;
 
 .header-4zuFdR {
   background-color: rgb(22, 22, 22);
-  border-bottom: 1.5px solid var(--main-color);
 }
 .tabBarContainer-37hZsr, .infoScroller-1Qu30O, .listScroller-3GmIYj, .modalContent-1T1Tix, .theme-dark .footer-2gL1pp{
   background-color: rgb(22, 22, 22);
@@ -2286,4 +2285,108 @@ strong{
 .activity-2M3PRB {
   background-color: rgb(22,22,22);
 } 
+
+
+
+
+
+.members-1998pB, .theme-dark .title-3qD0b-{
+  background-color: transparent !important;
+}
+
+.featuredTag-3pT1Rf {
+  background-color: var(--main-color);
+}
+
+
+.sidebar-CFHs9e {
+  padding: 45px 6px 60px 20px;
+}
+
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--main-color) !important;
+}
+
+
+.guildSidebar-2OCzWB, .formFieldWrapper-malor5, .theme-dark .footer-2gL1pp, .detailsBlock-FoDTGA{
+  background-color: var(--dark) !important;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:disabled {
+  background-color: transparent;
+}
+
+
+.perksModalContentWrapper-2HU6uL {
+  background-color: var(--main-transparency);
+}
+
+.theme-dark .ctaBar-2UsjF2, .theme-dark .tierBody-16Chc9, .theme-dark .perk-2WeBWW{
+  background-color: #18191c;
+}
+
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: var(--dark);
+  color: var(--main-color);
+}
+
+
+.content-1LAB8Z {
+  background-color: var(--dark);
+}
+
+.cursorDefault-331ZcI {
+  background-color: var(--background-floating);
+}
+
+
+.header-4zuFdR {
+  border: none;
+}
+
+
+/* User profile fix */
+.root-3QyAh1 > .topSection-y3p-_D {
+  background-color: rgb(22, 22, 22);
+}
+
+/* connections, verified icon */
+.connectedAccountVerifiedIcon-2cA82O {
+  background: url(https://clearvision.gitlab.io/icons/verified.svg) center/18px no-repeat;
+  opacity: 0.5;
+  z-index: 1;
+}
+.connectedAccountVerifiedIcon-2cA82O .flowerStar-1GeTsn {
+  opacity: 0;
+}
+.connectedAccountVerifiedIcon-2cA82O .childContainer-1wxZNh {
+  display: none;
+}
+
+
+/* connections on user profile */
+.connectedAccounts-QlRa4m > .connectedAccount-2Jb-Z0 {
+  position: relative;
+  background: rgba(255, 255, 255, 0.04);
+  border-color: transparent;
+  border-radius: 5px;
+  transition: all 0.15s ease-in-out;
+}
+.connectedAccounts-QlRa4m > .connectedAccount-2Jb-Z0:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+.connectedAccounts-QlRa4m > .connectedAccount-2Jb-Z0:hover .connectedAccountOpenIcon-E5wGF4 {
+  opacity: 0.7;
+}
+.connectedAccounts-QlRa4m > .connectedAccount-2Jb-Z0:active {
+  transform: scale(0.95);
+}
+
+/* send message hover button on profile */
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+background-color: var(--dark);
+color: var(--main-color);
+border: 1px solid var(--main-color);
+}
 
