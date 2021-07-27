@@ -1984,6 +1984,10 @@ background-color: var(--main-color) !important;
   background-image: url(https://svgshare.com/i/XPU.svg);
 }
 
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Profile Customization-tab"].item-PXvHYJ:before {
+  background-image: url(https://svgshare.com/i/Zar.svg);
+}
+
 .avatarUploaderInner-3UNxY3 {
   background-color: rgba(255, 255, 255, 0.05);
 }
