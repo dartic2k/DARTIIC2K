@@ -862,12 +862,6 @@
   max-width: none !important;
 }
 
-/* write message */
-.scrollableContainer-2NUZem {
-  background: linear-gradient(to top, rgb(54, 54, 54) 0%, rgb(0, 0, 0));
-  border-radius: 8px;
-}
-
 .channelTextArea-rNsIhG {
   box-shadow: 0px 0px 1px 1px var(--text-muted);
 }
