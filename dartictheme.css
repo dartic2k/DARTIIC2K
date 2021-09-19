@@ -1535,7 +1535,7 @@ background-color: var(--main-color) !important;
   background-image: url(https://clearvision.gitlab.io/icons/link.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="subscriptions-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
+  background-image: url(https://raw.githack.com/dartic2k/DARTIIC2K/45cf1a0b0ce437f746f79660e50fc393368e2518/assets/subscriptions.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="nitro-server-boost-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
