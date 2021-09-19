@@ -1534,7 +1534,7 @@ background-color: var(--main-color) !important;
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=connections-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/link.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="discord-nitro-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="subscriptions-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="nitro-server-boost-tab"].item-PXvHYJ:before {
