@@ -1594,6 +1594,12 @@ background-color: var(--main-color) !important;
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="hypesquad-online-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
 }
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="experiments"].item-PXvHYJ:before {
+  background-image: url(https://raw.githack.com/dartic2k/DARTIIC2K/1f9c0fd77d700c39e0a8760c4b5dddf717a5a00a/assets/science_white_24dp.svg);
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="developer-options"].item-PXvHYJ:before {
+  background-image: url(https://raw.githack.com/dartic2k/DARTIIC2K/1f9c0fd77d700c39e0a8760c4b5dddf717a5a00a/assets/settings_white_24dp.svg);
+} 
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
 }
