@@ -1595,10 +1595,10 @@ background-color: var(--main-color) !important;
   background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="experiments"].item-PXvHYJ:before {
-  background-image: url(https://raw.githack.com/dartic2k/DARTIIC2K/main/assets/science_white_24dp.svg);
+  background-image: url(https://svgshare.com/i/aeU.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="developer-options"].item-PXvHYJ:before {
-  background-image: url(https://raw.githack.com/dartic2k/DARTIIC2K/main/assets/settings_white_24dp.svg);
+  background-image: url(https://svgshare.com/i/aeV.svg);
 } 
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
