@@ -1599,7 +1599,10 @@ background-color: var(--main-color) !important;
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="developer-options-tab"].item-PXvHYJ:before {
   background-image: url(https://svgshare.com/i/aeV.svg);
-} 
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="hotspot-options"].item-PXvHYJ:before {
+  background-image: url(https://raw.githack.com/dartic2k/DARTIIC2K/15ea35701f905819c6d0fcf36a4af0f31e1522f4/assets/tune_white_24dp.svg);
+}
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
 }
